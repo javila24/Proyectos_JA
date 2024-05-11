@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poiret One", sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container div{
+    background: rgb(231, 207, 192);
+    margin: .5rem;
+    flex-basis: 50rem;
+    padding: 15rem;
+    justify-content: flex-start;
+}
+
+.flex-container h1{
+    color: white;
+    font-size: 15px;
+	color: black;
+    
+}
+
+@media (max-width: 320px){
+    .flex-container{
+        flex-direction: column;
+}
+.flex-container div{
+    flex-basis: 100%
+}
+}
