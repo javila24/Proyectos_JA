@@ -3,14 +3,14 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
 
 }
 
 /*-- Contenedor de cajas --*/
 
 .container{
-    background-color: rgb(238, 225, 211);
+    
     height: 100%;
     width: 100%;
     padding: 5rem;
@@ -22,7 +22,7 @@
     justify-content: center;
     align-content: center;
 
-    position: absolute;
+    position: relative;
 
 }
 
@@ -42,7 +42,7 @@
 /* Caja Derecha */
 
 .item_2{
-    background-image: url(/img//img2.jpeg);
+    background-image: url(/img/img2.jpeg);
     background-position: left;
    
     background-repeat: no-repeat;
@@ -97,10 +97,9 @@
     text-decoration: none;
     background-color: rgb(81, 155, 173);
 
-
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 320px) {
     .contenedor{
         margin-top: 0;
         flex-direction: column;
@@ -117,3 +116,63 @@
 
 
 /* Estilo Segunda Pagina */
+
+section{
+	
+      
+}
+
+ul {
+    list-style: none;
+    
+}
+
+ul li::before {
+    content: "✅";
+    display: inline-block;
+    margin-right: 0.2rem;
+    cursor: pointer;
+}
+
+li{
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+ 
+
+}
+  
+
+.Titulo-2 { 
+    font-size: 2rem;
+	color: black;
+    font-family: "Poiret One", sans-serif;
+    text-align: center;
+ 
+}
+
+
+.srv{
+    width: 80%;
+    min-height: auto;
+    margin: 2rem;
+ 
+}
+
+.list{
+   
+    display: block;
+
+    color: #141414; 
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 1.5;
+    
+    
+}
+
+.img{
+    float: right;
+    bac
+}
+       
