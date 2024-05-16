@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    background-color:rgb(240, 235, 235);
+
+}
+
+/*-- Contenedor de cajas --*/
+
+.page{
+    
+    height: 100%;
+    width: 100%;
+    padding: 5rem;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+    position: relative;
+
+}
+
+/* Caja izquierda imagen */
+
+.item_1{
+    background-image: url(/img/img1.png);
+    background-position: right;
+    
+    background-repeat: no-repeat;
+
+	width: 50%;
+    height: 30rem;
+
+}
+
+/* Caja Derecha */
+
+.item_2{
+    background-image: url(/img/img2.jpeg);
+    background-position: left;
+   
+    background-repeat: no-repeat;
+    opacity: .5;
+
+	width: 50%;
+    height: 30rem;
+
+}
+
+/* Estilo Contenedor del Parrafo */
+
+.item_text{
+    max-width: 350px;
+    width: 100%;
+    padding: 20px 10px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: #141414; 
+    background-color: white;
+    line-height: 1.5;
+    
+}
+
+/* Estilo Titulos */
+
+.title_h2{    
+	font-size: 2rem;
+	color: black;
+    font-family: "Poiret One", sans-serif;
+}
+
+.paragraph{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Boton */
+.item_2 a{
+    padding-top: 1rem;
+    color:white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    background-color: rgb(140, 110, 74);
+    padding: .5rem;
+}
+
+.item_2 a:hover{
+    color:white;
+    text-decoration: none;
+    background-color: rgb(81, 155, 173);
+
+}
+
+@media screen and (max-width: 320px) {
+    .contenedor{
+        margin-top: 0;
+        flex-direction: column;
+        height: 100%;
+        
+    }
+    .item_1, .item_2{
+        width: 100%;
+        height: 100%;
+	}
+
+}
+
+/* Estilo Segunda Pagina */
+
+
+ul {
+    margin-left: 5rem;
+    list-style: none;
+    
+}
+
+li{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+ul li:hover::marker{
+    content: '♜';
+    color:rgb(140, 110, 74);
+}
+
+
+.Titulo-2 { 
+    font-size: 2rem;
+	color: black;
+    font-family: "Poiret One", sans-serif;
+    text-align: center;
+ 
+}
+
+
+.srv{
+    width: 80%;
+    min-height: auto;
+    margin: 2rem;
+ 
+}
+ 
+
+.list{
+   
+    display: block;
+
+    color: #141414; 
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 1.5;
+    
+    
+}
+
+.img{
+    margin-bottom: 2rem;
+    float: right;
+    cursor: pointer;
+
+}
+
+.img:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+       
