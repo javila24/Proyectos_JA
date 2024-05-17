@@ -1,0 +1,155 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+*/
+.main{
+    display: flex;
+
+    margin-top: 3rem;
+
+    background-image: url(/img/cardp.png);
+    background-size: cover;
+    justify-content: center;
+    
+    width: 90vh;
+    height: 85vh;
+    padding: 5rem ;
+    
+
+}
+/*
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+
+P{
+    font-family: 'Roboto', sans-serif;
+}
+.linea1{  
+
+    position: absolute;
+    top: 35%;
+    left: 16%;
+}
+
+.linea2{   
+    
+      position: absolute;
+    top: 35%;
+    left: 16%;
+}
+
+.linea3{   
+    
+    position: absolute;
+    top: 58%;
+    left: 78%;
+}
+
+.linea4{   
+    
+       position: absolute;
+    top: 35%;
+    left: 85%;
+}
+
+.linea5{   
+    
+  
+    position: absolute;
+    top: 17%;
+    left: 80%;
+}
+
+.linea6{   
+  
+
+    position: absolute;
+    top: 60%;
+    left: 9%;
+}
+/*
+@keyframes linea {
+    from{
+        transform: scale(1.3);
+        }
+        to{
+            transform: scale(1);
+            }
+
+
+    }
+
+    @keyframes linea1 {
+        from{
+            transform: scale(1.3);
+            }
+            to{
+                transform: scale(1);
+                }
+    }
+    @keyframes linea2{
+        from{
+            transform: scale(1.2);
+            }
+            to{
+                transform: scale(1);
+                }
+    
+    
+        }
+
+        @keyframes linea3{
+            from{
+                transform: scale(1.1);
+                }
+                to{
+                    transform: scale(1);
+                    }
+        
+        
+            }
+
+            @keyframes linea4{
+                from{
+                    transform: scale(1.3);
+                    }
+                    to{
+                        transform: scale(1);
+                        }
+            
+            
+                }
+
+
+                @keyframes linea5{
+                    from{
+                        transform: scale(1.2);
+                        }
+                        to{
+                            transform: scale(1);
+                            
+                            }
+                
+                
+                    }
+
+                    @keyframes linea6{
+                        from{
+                            transform: scale(1.1);
+                            }
+                            to{
+                                transform: scale(1);
+                                }
+                    
+                    
+                        }
+
+*/

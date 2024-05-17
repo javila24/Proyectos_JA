@@ -1,0 +1,72 @@
+
+#carlos{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.superior{
+    margin-bottom: 4rem;
+    
+
+}
+
+.card-container{
+    
+    width: 85%;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5rem;
+
+}
+
+.card{
+    width:60%;
+    height:auto;
+    
+    background-color: rgb(240, 235, 235);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-content{
+    padding: 10px;
+}
+
+.card-content h3{
+    font-size: 18px;
+	color:rgb(53, 52, 52);
+    font-family: "Poiret One", sans-serif;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.card-content p{
+    color:#222;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 800px){
+    .card-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .card-container{
+        grid-template-columns: 1fr;
+    }
+}
