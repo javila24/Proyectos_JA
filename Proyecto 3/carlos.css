@@ -1,0 +1,141 @@
+
+#carlos{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.superior{
+    margin-bottom: 4rem;
+    
+}
+
+.card-container{
+    
+    width: 85%;
+    margin: auto;
+    
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 5rem;
+    animation-duration: 3s;
+    animation-name: linea1;
+   
+}
+
+.card{
+    width:60%;
+    height:auto;
+    
+    background-color: rgb(240, 235, 235);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    overflow:hidden;
+    transition: all 0.3s ease;
+
+
+}
+
+.card:hover{
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+    
+
+}
+
+.card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+.card-content{
+    padding: 10px;
+}
+
+.card-content h3{
+    font-size: 18px;
+	color:rgb(53, 52, 52);
+    font-family: "Poiret One", sans-serif;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.card-content p{
+    color:#222;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    text-align: justify;
+}
+
+/* @media pagina 4 */
+@media screen and (max-width: 800px){
+    .card-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .card-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+.main{
+    background-color:rgb(224, 225, 230);
+    margin-top: 0;
+    padding: 5rem;
+
+    background-image: url(/img/contacto.jpg);
+    background-size:100%;
+    background-repeat: no repeat;
+    justify-content: center;
+    
+    width: 90%
+    height: 90%;
+
+    display: flex;
+
+}
+.title__h2{
+    background-color:rgb(224, 225, 230);
+	font-size: 2rem;
+	color: black;
+    font-family: "Poiret One", sans-serif;
+    padding-bottom: .5rem;
+    text-align: center;
+
+
+}
+.main h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: .5rem;
+    background-color:rgb(224, 225, 230);
+}
+
+.main p{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: .5rem;
+    background-color:rgb(224, 225, 230);
+}
+
+.circulo{
+    background-color: rgb(224, 225, 230);
+
+    opacity: .8;
+     border-radius: 15rem 15rem 1rem 1rem;
+     width: 30rem;
+     height: 30rem;
+
+     justify-content: center;
+     text-align: center;
+     padding: 5rem;
+     line-height: 2;
+}
